@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20190828214042_modifyProduct.cs" />
+    <Compile Remove="Migrations\20190828214042_modifyProduct.Designer.cs" />
+    <Compile Remove="Migrations\20190828215721_modifyProduct.cs" />
+    <Compile Remove="Migrations\20190828215721_modifyProduct.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
