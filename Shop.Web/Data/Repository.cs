@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+
     public class Repository : IRepository
     {
         private readonly DataContext context;
@@ -12,10 +13,12 @@
         {
             this.context = context;
         }
+
         public IEnumerable<Product> GetProducts()
         {
             return this.context.Products.OrderBy(p => p.Name);
         }
+
         public Product GetProduct(int id)
         {
             return this.context.Products.Find(id);
@@ -45,5 +48,6 @@
         {
             return this.context.Products.Any(p => p.Id == id);
         }
+
     }
 }
