@@ -1,4 +1,5 @@
-﻿namespace Shop.Web
+﻿
+namespace Shop.Web
 {
     using Microsoft.AspNetCore;
     using Microsoft.AspNetCore.Hosting;

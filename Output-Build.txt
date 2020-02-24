@@ -1,0 +1,25 @@
+﻿1>------ Build started: Project: Shop.IUForms, Configuration: Release Any CPU ------
+2>------ Build started: Project: Shop.Common, Configuration: Release Any CPU ------
+3>------ Build started: Project: Shop.Web, Configuration: Release Any CPU ------
+4>------ Build started: Project: Shop.UIClassic, Configuration: Release Any CPU ------
+4>Shop.UIClassic -> C:\Projects\Shop\Shop.UIClassic\bin\Release\netstandard2.0\Shop.UIClassic.dll
+5>------ Build started: Project: Shop.UIClassic.Andro, Configuration: Release Any CPU ------
+2>Shop.Common -> C:\Projects\Shop\Shop.Common\bin\Release\netstandard2.0\Shop.Common.dll
+1>Shop.IUForms -> C:\Projects\Shop\Shop.IUForms\Shop.IUForms\bin\Release\netstandard2.0\Shop.IUForms.dll
+6>------ Skipped Build: Project: Shop.IUForms.iOS, Configuration: Release iPhone ------
+6>Project not selected to build for this solution configuration 
+7>------ Skipped Build: Project: Shop.UIClassic.iOS, Configuration: Release iPhone ------
+7>Project not selected to build for this solution configuration 
+3>Shop.Web -> C:\Projects\Shop\Shop.Web\bin\Release\netcoreapp2.1\Shop.Web.dll
+3>Shop.Web -> C:\Projects\Shop\Shop.Web\bin\Release\netcoreapp2.1\Shop.Web.Views.dll
+5>  Shop.UIClassic.Andro -> C:\Projects\Shop\Shop.UIClassic.Andro\bin\Release\Shop.UIClassic.Andro.dll
+5>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2281,3): warning : Failed to read 'obj\Release\81\android\assets\Xamarin.Essentials.dll' with debugging symbols. Retrying to load it without it. Error details are logged below.
+5>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2281,3): warning : Mono.Cecil.Cil.SymbolsNotMatchingException: Symbols were found but are not matching the assembly
+5>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2281,3): warning :    at Mono.Cecil.ModuleDefinition.ReadSymbols(ISymbolReader reader, Boolean throwIfSymbolsAreNotMaching)
+5>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2281,3): warning :    at Mono.Cecil.ModuleReader.ReadSymbols(ModuleDefinition module, ReaderParameters parameters)
+5>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2281,3): warning :    at Mono.Cecil.ModuleReader.CreateModule(Image image, ReaderParameters parameters)
+5>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2281,3): warning :    at Mono.Cecil.ModuleDefinition.ReadModule(Disposable`1 stream, String fileName, ReaderParameters parameters)
+5>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2281,3): warning :    at Mono.Cecil.ModuleDefinition.ReadModule(String fileName, ReaderParameters parameters)
+5>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2281,3): warning :    at Mono.Cecil.AssemblyDefinition.ReadAssembly(String fileName, ReaderParameters parameters)
+5>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2281,3): warning :    at Java.Interop.Tools.Cecil.DirectoryAssemblyResolver.ReadAssembly(String file)
+========== Build: 5 succeeded, 0 failed, 1 up-to-date, 2 skipped ==========

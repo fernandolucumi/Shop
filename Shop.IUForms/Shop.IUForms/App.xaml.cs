@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Shop.IUForms.ViewModels;
+using Shop.IUForms.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +12,8 @@ namespace Shop.IUForms
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainViewModel.GetInstance().Login = new LoginViewModel();
+            this.MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
@@ -22,6 +25,7 @@ namespace Shop.IUForms
         {
             // Handle when your app sleeps
         }
+
 
         protected override void OnResume()
         {
